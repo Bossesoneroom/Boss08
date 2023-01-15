@@ -1,0 +1,25 @@
+{
+    "title": "Boss",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 615,
+            "height": 697,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "chrome://new-tab-page/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "chrome://new-tab-page/",
+                    "title": "New Tab"
+                }
+            ]
+        }
+    ]
+}
